@@ -1,8 +1,8 @@
 Runs priority:
 
-1. ielab-bertserini-QA-2020-10.txt
-2. ielab_bm25T5QLM.txt
-3. ielab-bertPRF-QA-2020-10.txt
+1. ielab-bert-QA-2020-10.txt
+2. ielab-bm25-T5QLMAQ.txt
+3. ielab-bertPRF-AQ-2020-10.txt
 4. ielab-bm25-2020-AQ.txt
 
 ## ielab-bm25-2020-AQ.txt
@@ -14,7 +14,7 @@ CONVERSATIONAL CONTEXT: method uses previous raw utterances (queries) in the top
 
 BM25+RM3 baseline. For each topic, for utterances beyond the first, the first query is appended.
 
-## ielab-bertserini-QA-2020-10.txt
+## ielab-bert-QA-2020-10.txt
 
 SUBMISSION CATAGORY: Raw Utterance only
 CONVERSATIONAL QUERY UNDERSTANDING METHOD: Query Exspansion
@@ -24,7 +24,7 @@ CONVERSATIONAL CONTEXT: method uses previous raw utterances (queries) in the top
 BERT based re-ranking of BM25+RM3 baseline. Top k=10 documents only are re-ranked using BERT. For each topic, for utterances beyond the first, the first query is appended.
 
 
-## ielab-bertPRF-QA-2020-10.txt
+## ielab-bertPRF-AQ-2020-10.txt
 
 SUBMISSION CATAGORY: Raw Utterance only
 CONVERSATIONAL QUERY UNDERSTANDING METHOD: Query Exspansion
@@ -33,7 +33,7 @@ CONVERSATIONAL CONTEXT: method uses previous raw utterances (queries) in the top
 
 BERT based re-ranking of BM25+RM3 baseline. Top k=10 documents only are re-ranked using BERT. When re-ranking, the query and the first p=3 passages are embedded using BERT to create the embedding for the query. For each topic, for utterances beyond the first, the first query is appended.
 
-## ielab_bm25T5QLM.txt
+## ielab-bm25-T5QLMAQ.txt
 
 SUBMISSION CATAGORY: Raw Utterance only
 CONVERSATIONAL QUERY UNDERSTANDING METHOD: Query Exspansion
